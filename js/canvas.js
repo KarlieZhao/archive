@@ -27,7 +27,7 @@ function init() {
     // model
 
     new GLTFLoader()
-        .setPath('../model/')
+        .setPath('../archive/model/')
         .load('pillow4.gltf', function(gltf) {
 
             scene.add(gltf.scene);
