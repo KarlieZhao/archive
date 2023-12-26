@@ -27,7 +27,7 @@ function init() {
     // model
 
     new GLTFLoader()
-        .setPath('https://github.com/KarlieZhao/archive/model/')
+        .setPath('../model/')
         .load('pillow4.gltf', function(gltf) {
 
             scene.add(gltf.scene);
